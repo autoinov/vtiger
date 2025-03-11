@@ -10,7 +10,7 @@
 <footer class="app-footer">
 	<p>
 	Instalacija - {$VTIGER_VERSION}&nbsp;&nbsp;© 2004 - {date('Y')}&nbsp;&nbsp;
-		<a href="//autoinovacije.hr/web-dizajn-izrada-web-stranica/" target="_blank">Izrada web stranica<strong>Autoinovacije d.o.o.</strong></a>&nbsp;&nbsp;
+		<a href="//autoinovacije.hr/web-dizajn-izrada-web-stranica/" target="_blank"><strong>Autoinovacije d.o.o.Izrada web stranica</strong></a>&nbsp;&nbsp;
 	</p>
 </footer>
 </div>
