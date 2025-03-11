@@ -31,7 +31,11 @@
 			{assign var=APP_GROUPED_MENU value=Settings_MenuEditor_Module_Model::getAllVisibleModules()}
 			{assign var=APP_LIST value=Vtiger_MenuStructure_Model::getAppMenuList()}
 			{foreach item=APP_NAME from=$APP_LIST}
-				{if $APP_NAME eq 'ANALYTICS'} {continue}{/if}
+                {if $APP_NAME eq 'ANALYTICS' || $APP_NAME eq 'INVENTORY' || $APP_NAME eq 'SUPPORT' || $APP_NAME eq 'PROJECT' || $APP_NAME eq 'SALES'} 
+                    {continue}
+                {/if}
+
+
 				{if !empty($APP_GROUPED_MENU.$APP_NAME)}
 					<div class="dropdown app-modules-dropdown-container">
 						{foreach item=APP_MENU_MODEL from=$APP_GROUPED_MENU.$APP_NAME}

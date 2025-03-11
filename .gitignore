@@ -1,3 +1,15 @@
 vendor/*
 !vendor/.htaccess
 .vscode/*
+logoV.jpg
+# Ignore compiled template cache
+test/templates_c/
+cache/
+layouts/v7/modules/Users/Login.tpl.cache
+
+# Ignore user privilege files
+user_privileges/
+
+# Ignore logs
+logs/
+error_log
