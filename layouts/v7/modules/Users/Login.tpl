@@ -1,5 +1,6 @@
 {strip}
 <style>
+
     body {
         background: url(layouts/v7/resources/Images/login-background.jpg);
         background-position: center;
