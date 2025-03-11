@@ -1,0 +1,16 @@
+Traced on 2025-03-02 21:06:31
+FileAccessForInclusion - 
+C:\wamp64\www\darkoCRM\vtiger\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\wamp64\www\darkoCRM\vtiger\includes\Loader.php::checkFileAccessForInclusion::65<br>
+C:\wamp64\www\darkoCRM\vtiger\includes\Loader.php::includeOnce::191<br>
+C:\wamp64\www\darkoCRM\vtiger\includes\main\WebUI.php::vimport::15<br>
+C:\wamp64\www\darkoCRM\vtiger\index.php::include_once::23<br>
+
+Traced on 2025-03-02 21:07:34
+FileAccessForInclusion - 
+C:\wamp64\www\darkoCRM\vtiger\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\wamp64\www\darkoCRM\vtiger\includes\Loader.php::checkFileAccessForInclusion::65<br>
+C:\wamp64\www\darkoCRM\vtiger\includes\Loader.php::includeOnce::191<br>
+C:\wamp64\www\darkoCRM\vtiger\includes\main\WebUI.php::vimport::15<br>
+C:\wamp64\www\darkoCRM\vtiger\index.php::include_once::23<br>
+
