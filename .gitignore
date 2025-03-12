@@ -1,15 +1,74 @@
+# Ignore vendor folder except .htaccess
 vendor/*
 !vendor/.htaccess
+
+# Ignore VS Code project files
 .vscode/*
-logoV.jpg
-# Ignore compiled template cache
-test/templates_c/
-cache/
-layouts/v7/modules/Users/Login.tpl.cache
 
-# Ignore user privilege files
-user_privileges/
+# Ignore configuration files (should not be overwritten)
+config.inc.php
+config.php
+config.db.php
+config.security.php
+config_override.dev.php
+config_override.sample.php
 
-# Ignore logs
+# Ignore log files
 logs/
 error_log
+deploy.log
+logs/*.log
+logs/*.txt
+
+# Ignore user privilege files (these files are auto-generated)
+user_privileges/
+user_privileges/*.php
+
+# Ignore compiled template cache
+test/templates_c/
+test/templates_c/v7/*
+
+# Ignore cache, temporary, and backup directories
+cache/
+cache/*
+tmp/
+tmp/*
+backup/
+backup/*
+
+# Ignore dynamically generated storage files
+storage/
+storage/*
+storage/**/*.png
+storage/**/*.mobileconfig
+storage/**/*.txt
+
+# Ignore session files
+session/
+session_save_path/
+
+# Ignore debug and temporary development files
+*.log
+*.bak
+*.swp
+*.swo
+*.old
+
+# Ignore IDE and system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignore vendor examples and documentation
+vendor/smarty/smarty/demo/
+vendor/smarty/smarty/docs/
+vendor/tecnickcom/tcpdf/examples/
+vendor/tecnickcom/tcpdf/tools/
+
+# Ignore any other unnecessary vendor files
+vendor/dg/rss-php/.github/
+vendor/smarty/smarty/demo/
+vendor/tecnickcom/tcpdf/examples/
+vendor/tecnickcom/tcpdf/tools/
+
+logoV.jpg
